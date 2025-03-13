@@ -12,8 +12,8 @@ const emailCount = 10
 
 for (let i = 0; i < emailCount; i++) {
     // chiamo  l'API che voglio usare
-    axios.get(endpoint)
-        .then(response) => {
+    axios.get(endpoint).then(response) => {
+
         const email = response.data.posts;
 
         // creo elementi html 
@@ -21,11 +21,11 @@ for (let i = 0; i < emailCount; i++) {
 
 
 
-    }
-
-    .catch (error => {
+    }) .catch (error => {
         console.log("errore", error)
     })
+
+
 
 
 }
