@@ -21,7 +21,7 @@ for (let i = 0; i < emailCount; i++) {
 
 
 
-    }) .catch (error => {
+    } .catch (error => {
         console.log("errore", error)
     })
 
