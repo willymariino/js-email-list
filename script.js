@@ -22,10 +22,12 @@ for (let i = 0; i < emailCount; i++) {
 
 
     }
+
     .catch (error => {
         console.log("errore", error)
     })
 
 
-
 }
+
+
